@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>(｡･∀･)ﾉﾞ个人信息表单</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<form method="post" class="wrap_color">
+			<div class="fill">
+				<div class="base_info">
+					<!-- name -->
+					<div class="info_item clearfix">
+						<label class="base_title" for="name">
+							<span class="must_sym must_on">*</span>
+							<span class="title_text">昵称：</span>
+						</label>
+						<div class="fill_wrap">
+							<input id="name" class="fill_inp inp_active" type="text" />
+							<span class="demand">4-20个字符</span>
+						</div>
+					</div>
+					<!-- truth_name -->
+					<div class="info_item clearfix">
+						<label class="base_title" for="truth_name">
+							<span class="must_sym">*</span>	
+							<span class="title_text">真实姓名：</span>
+						</label>
+						<div class="fill_wrap">
+							<input id="truth_name" class="fill_inp" type="text" />
+						</div>
+					</div>
+					<!-- local -->
+					<div class="info_item clearfix">
+						<label class="base_title" for="local">
+							<span class="must_sym must_on">*</span>
+							<span class="title_text">所在地：</span>
+						</label>
+						<div class="fill_wrap">
+							<div class="fill_inp_wrap">
+								<div id="local" class="fill_sel sel_m">
+									<span class="sel_text_on">北京</span>
+									<a class="row_wrap" href="">
+										<i class="row_b"></i>
+										<i class="row_w"></i>
+									</a>
+									<span class="detail">
+										<span class="detail_item">上海</span>
+										<span class="detail_item">天际</span>
+										<span class="detail_item">开锅</span>
+										<span class="detail_item">海外</span>
+										<span class="detail_item">广州</span>
+										<span class="detail_item">深圳</span>
+										<span class="detail_item">海外</span>
+									</span>
+								</div>
+								<div id="local" class="fill_sel sel_s">
+									<span class="sel_text_on">朝阳区</span>
+									<a class="row_wrap" href="">
+										<i class="row_b"></i>
+										<i class="row_w"></i>
+									</a>
+									<span class="detail">
+										<span class="detail_item">海淀区</span>
+										<span class="detail_item">昌平区</span>
+										<span class="detail_item">顺义区</span>
+										<span class="detail_item">望京</span>
+									</span>
+								</div>
+							</div>
+							<div id="local" class="fill_sel sel_set">
+								<span class="sel_text_on">北京</span>
+								<a class="row_wrap" href="">
+									<i class="row_b"></i>
+									<i class="row_w"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- sex -->
+					<div class="info_item clearfix">
+						<div class="base_title">
+							<span class="must_sym must_on">*</span>
+							<span class="title_text">性别：</span>
+						</div>
+						<div class="fill_wrap">
+							<div class="fill_radio_wrap">
+								<a id="man" class="fill_radio" href="">
+									<i></i>
+								</a>
+								<label class="radio_text" for="man">男</label>
+							</div>
+							<div class="fill_radio_wrap">
+								<a id="woman" class="fill_radio radio_on" href="">
+									<i></i>
+								</a>
+								<label class="radio_text" for="woman">女</label>
+							</div>
+						</div>
+					</div>
+					<!-- brith -->
+					<div class="info_item clearfix">
+						<div class="base_title">
+							<span class="must_sym">*</span>
+							<span class="title_text">生日：</span>
+						</div>
+						<div class="fill_wrap">
+							<div class="fill_inp_wrap">
+								<div class="fill_sel sel_ss">
+									<span class="sel_text_on">2009年</span>
+									<a class="row_wrap" href="">
+										<i class="row_b"></i>
+										<i class="row_w"></i>
+									</a>
+									<span class="detail">
+										<span class="detail_item">2010年</span>
+										<span class="detail_item">2011年</span>
+										<span class="detail_item">2012年</span>
+										<span class="detail_item">2013年</span>
+										<span class="detail_item">2014年</span>
+										<span class="detail_item">2015年</span>
+										<span class="detail_item">2016年</span>
+										<span class="detail_item">2017年</span>
+									</span>
+								</div>
+								<div class="fill_sel sel_ss">
+									<span class="sel_text_on">01月</span>
+									<a class="row_wrap" href="">
+										<i class="row_b"></i>
+										<i class="row_w"></i>
+									</a>
+									<span class="detail">
+										<span class="detail_item">02月</span>
+										<span class="detail_item">03月</span>
+										<span class="detail_item">04月</span>
+										<span class="detail_item">05月</span>
+										<span class="detail_item">06月</span>
+										<span class="detail_item">07月</span>
+										<span class="detail_item">08月</span>
+										<span class="detail_item">09月</span>
+										<span class="detail_item">10月</span>
+										<span class="detail_item">11月</span>
+										<span class="detail_item">12月</span>
+									</span>
+								</div>
+								<div class="fill_sel sel_ss fill_sel_date">
+									<span class="sel_text_on">01日</span>
+									<a class="row_wrap" href="">
+										<i class="row_b"></i>
+										<i class="row_w"></i>
+									</a>
+									<span class="detail">
+										<span class="detail_item">02日</span>
+										<span class="detail_item">03日</span>
+										<span class="detail_item">04日</span>
+										<span class="detail_item">05日</span>
+										<span class="detail_item">06日</span>
+										<span class="detail_item">07日</span>
+										<span class="detail_item">08日</span>
+										<span class="detail_item">09日</span>
+										<span class="detail_item">10日</span>
+										<span class="detail_item">11日</span>
+										<span class="detail_item">12日</span>
+										<span class="detail_item">13日</span>
+										<span class="detail_item">14日</span>
+										<span class="detail_item">15日</span>
+										<span class="detail_item">16日</span>
+										<span class="detail_item">17日</span>
+										<span class="detail_item">18日</span>
+										<span class="detail_item">19日</span>
+										<span class="detail_item">20日</span>
+										<span class="detail_item">21日</span>
+										<span class="detail_item">22日</span>
+										<span class="detail_item">23日</span>
+									</span>
+								</div>
+							</div>
+							<div class="fill_sel sel_set">
+								<span class="sel_text_on">保密</span>
+								<a class="row_wrap" href="">
+									<i class="row_b"></i>
+									<i class="row_w"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- blog -->
+					<div class="info_item clearfix">
+						<label class="base_title" for="blog">
+							<span class="must_sym">*</span>
+							<span class="title_text">博客地址：</span>
+						</label>
+						<div class="fill_wrap">
+							<input id="blog" class="fill_inp" type="text" />
+							<div class="fill_sel sel_set">
+								<span class="sel_text_on">所有人可见</span>
+								<a class="row_wrap" href="">
+									<i class="row_b"></i>
+									<i class="row_w"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- mail -->
+					<div class="info_item info_mail clearfix">
+						<label class="base_title" for="blog">
+							<span class="must_sym">*</span>
+							<span class="title_text">常用邮箱：</span>
+						</label>
+						<div class="fill_wrap">
+							<div class="fill_inp_wrap">
+								<input class="fill_inp" type="text" value="mofeiangmotao@miaov.com" disabled />
+								<a class="change" href="">修改</a>
+							</div>	
+							<div class="fill_sel sel_set">
+								<span class="sel_text_on">我关注的人可见</span>
+								<a class="row_wrap" href="">
+									<i class="row_b"></i>
+									<i class="row_w"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- QQ -->
+					<div class="info_item clearfix">
+						<label class="base_title" for="qq_num">
+							<span class="must_sym">*</span>
+							<span class="title_text">QQ：</span>
+						</label>
+						<div class="fill_wrap">
+							<input id="qq_num" class="fill_inp" type="text" />
+						</div>
+					</div>
+					<!-- intro -->
+					<div class="info_item clearfix">
+						<label class="base_title" for="intro">
+							<span class="must_sym">*</span>
+							<span class="title_text">一句话介绍：</span>
+						</label>
+						<div class="fill_wrap">
+							<textarea id="intro" class="fill_inp fill_textarea" type="text"></textarea>
+						</div>
+					</div>
+				</div>
+				<!-- iden info -->
+				<div class="iden_info">
+					<div class="text_info">以下信息，可作为通过客服取回账号的依据</div>
+					<div class="item_wrap">
+						<div class="info_item clearfix">
+							<label class="base_title" for="iden_type">
+								<span class="title_text">真实姓名：</span>
+								<span class="must_sym">*</span>
+							</label>
+							<div id="local" class="fill_sel sel_m">
+								<span class="sel_text_on">身份证</span>
+								<a class="row_wrap" href="">
+									<i class="row_b"></i>
+									<i class="row_w"></i>
+								</a>
+								<span class="detail">
+										<span class="detail_item">户口本</span>
+										<span class="detail_item">驾照</span>
+										<span class="detail_item">护照</span>
+										<span class="detail_item">学生证</span>
+									</span>
+							</div>
+						</div>
+						<div class="info_item clearfix">
+							<label class="base_title" for="iden_num">
+								<span class="title_text">证件号码：</span>
+								<span class="must_sym">*</span>
+							</label>
+							<div class="fill_wrap">
+								<input id="iden_num" class="fill_inp" type="text" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- submit -->
+			<div class="submit_wrap clearfix">
+				<input class="sub_ico save" type="button" name="save" value="保存" />
+				<input class="sub_ico cancel" type="button" name="cancel" value="取消" />
+			</div>
+		</form>
+	</body>
+</html>
